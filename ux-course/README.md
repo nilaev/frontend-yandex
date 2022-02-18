@@ -13,7 +13,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________
 
 ## [Homework 4: Pig Tinder](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/04-pig-tinder)
-![alt](https://github.com/DMozhevitin/ITMO/blob/main/ux-course/images/04/01.png)
+![alt](https://github.com/nilaev/frontend-yandex/blob/main/images/ux-04-1.png)
 ________________________________________________________________________________
 
 ## [Homework 5: Accesability](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/05-pump-the-cat)
