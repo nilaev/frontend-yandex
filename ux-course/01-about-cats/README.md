@@ -1,4 +1,9 @@
-# Задача «Про котиков»
+# Task 1: About cats
+
+![alt](https://github.com/nilaev/frontend-yandex/blob/main/images/ux-01-1.png)
+______________________________________________________________________________________________________________________________
+![alt](https://github.com/nilaev/frontend-yandex/blob/main/images/ux-01-2.png)
+
 
 ## Доступные команды
 
