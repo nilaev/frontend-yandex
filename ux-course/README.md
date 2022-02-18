@@ -4,7 +4,7 @@
 ![alt](https://github.com/nilaev/frontend-yandex/blob/main/images/ux-01-1.png)
 ________________________________________________________________________________
 
-## [Homework 2: Murmarket](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/02-murmarket)
+## [Homework 2: Murmarket](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/02-mur-market)
 ![alt](https://github.com/nilaev/frontend-yandex/blob/main/images/ux-02-1.png)
 ________________________________________________________________________________
 
