@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang='ru'>
+
+<head>
+  <meta charset='utf-8'>
+  <title>05-pump-the-cat</title>
+  <link rel='stylesheet' href='./index.css'>
+</head>
+
+
+<body>
+<main class='main'>
+  <div class='main-content'>
+
+    <section class='working-part'>
+      <article class='text-main-info'>
+        <h1 id='text-main-name'>Обменяй лабы по фп на котиков!</h1>
+        <p id='text-description'>Посчитай, сколько котиков ты можешь получить за свои лабы
+          по функциональному программированию</p>
+      </article>
+
+
+      <article class='select'>
+        <p class='text-info'>Какая лаба у тебя есть?</p>
+          <select aria-label='Select menu example'>
+            <option selected>выбери номер</option>
+            <option value='1'>1</option>
+            <option value='2'>2</option>
+            <option value='3'>3</option>
+            <option value='4'>4</option>
+          </select>
+      </article>
+
+      <article class='radio-part'>
+        <p class='text-info-2'>А как ты с ней справился?</p>
+        <div class="form_radio_group">
+          <div class="form_radio_group-item">
+            <input id="radio-1" type="radio" name="radio" value="1" checked>
+            <label for="radio-1">С пивом покатит</label>
+          </div>
+          <div class="form_radio_group-item">
+            <input id="radio-2" type="radio" name="radio" value="2">
+            <label for="radio-2">Работает штатно</label>
+          </div>
+          <div class="form_radio_group-item">
+            <input id="radio-3" type="radio" name="radio" value="3">
+            <label for="radio-3">Андрей Серока</label>
+          </div>
+        </div>
+      </article>
+
+      <article class='email-part'>
+        <p class='text-info-2'>Почта для связи</p>
+        <input type="email" id="email"
+               pattern=".+@globex\.com" size="40" required>
+      </article>
+
+      <label class="control checkbox">
+        <input type="checkbox">
+        <span class="control-indicator"></span>
+        Готов поменять своего кота на готовую лабу
+      </label>
+
+      <div class='btn-part'>
+      <button name="send-request">Получить предложение</button>
+      </div>
+    </section>
+
+    <section class='image-part'>
+      <div id='rectangle-top'></div>
+      <img id='img-main-cat' src='source/cat.jpg' alt='кот'>
+      <div id='rectangle-bottom'></div>
+    </section>
+  </div>
+</main>
+
+
+</body>
+</html>

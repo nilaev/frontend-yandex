@@ -1,0 +1,97 @@
+.card,
+.dog-empty {
+  position: relative;
+
+  width: 20vw;
+  height: 17vw;
+}
+
+/*По умолчанию не видно блок*/
+.dog-selector,
+.dog-label {
+  display: none;
+}
+
+.dog-img {
+  height: 80%;
+
+  opacity: 0.7;
+}
+
+/*======Блок для боковых картинок======*/
+
+.dog-selector:checked:nth-of-type(1) ~ .dog-label:nth-of-type(1),
+.dog-selector:checked:nth-of-type(1) ~ .dog-label:nth-of-type(2),
+.dog-selector:checked:nth-of-type(1) ~ .dog-label:nth-of-type(3),
+.dog-selector:checked:nth-of-type(2) ~ .dog-label:nth-of-type(2),
+.dog-selector:checked:nth-of-type(2) ~ .dog-label:nth-of-type(3),
+.dog-selector:checked:nth-of-type(2) ~ .dog-label:nth-of-type(4),
+.dog-selector:checked:nth-of-type(3) ~ .dog-label:nth-of-type(3),
+.dog-selector:checked:nth-of-type(3) ~ .dog-label:nth-of-type(4),
+.dog-selector:checked:nth-of-type(3) ~ .dog-label:nth-of-type(5),
+.dog-selector:checked:nth-of-type(4) ~ .dog-label:nth-of-type(4),
+.dog-selector:checked:nth-of-type(4) ~ .dog-label:nth-of-type(5) {
+  display: inline-block;
+}
+
+.dog-selector:checked:nth-of-type(1) ~ .dog-label:nth-of-type(3) .dog-img,
+.dog-selector:checked:nth-of-type(2) ~ .dog-label:nth-of-type(2) .dog-img,
+.dog-selector:checked:nth-of-type(2) ~ .dog-label:nth-of-type(4) .dog-img,
+.dog-selector:checked:nth-of-type(3) ~ .dog-label:nth-of-type(3) .dog-img,
+.dog-selector:checked:nth-of-type(3) ~ .dog-label:nth-of-type(5) .dog-img,
+.dog-selector:checked:nth-of-type(4) ~ .dog-label:nth-of-type(4) .dog-img {
+  display: block;
+
+  margin-right: 100%;
+  margin-left: 10%;
+}
+
+/*======Блок для центральной картинки======*/
+
+/*Если в селекторе НЕ выбрана 1 по счету, тогда примени для label и img 2 по счету*/
+.dog-selector:checked:nth-of-type(1) ~ .dog-label:nth-of-type(2) .dog-img,
+.dog-selector:checked:nth-of-type(2) ~ .dog-label:nth-of-type(3) .dog-img,
+.dog-selector:checked:nth-of-type(3) ~ .dog-label:nth-of-type(4) .dog-img,
+.dog-selector:checked:nth-of-type(4) ~ .dog-label:nth-of-type(5) .dog-img {
+  /*Сделай центральную картинку самой большой и не размытой*/
+  height: 100%;
+
+  opacity: 1;
+}
+
+.dog-selector:checked:nth-of-type(1) ~ .dog-label:nth-of-type(2):hover .dog-img,
+.dog-selector:checked:nth-of-type(2) ~ .dog-label:nth-of-type(3):hover .dog-img,
+.dog-selector:checked:nth-of-type(3) ~ .dog-label:nth-of-type(4):hover .dog-img,
+.dog-selector:checked:nth-of-type(4) ~ .dog-label:nth-of-type(5):hover .dog-img {
+  /*Сделай затемнее центральной картинки при наведении*/
+  filter: brightness(60%);
+}
+
+.dog-name {
+  position: absolute;
+
+  top: 40%;
+  right: 0px;
+  left: 0px;
+
+  visibility: hidden;
+
+  margin-right: auto;
+  margin-left: 20px;
+  padding: 0px 0px;
+
+  color: white;
+
+  font-family: sans-serif;
+  font-size: 25px;
+
+  text-align: center;
+}
+
+.dog-selector:checked:nth-of-type(1) ~ .dog-label:nth-of-type(2):hover .dog-name,
+.dog-selector:checked:nth-of-type(2) ~ .dog-label:nth-of-type(3):hover .dog-name,
+.dog-selector:checked:nth-of-type(3) ~ .dog-label:nth-of-type(4):hover .dog-name,
+.dog-selector:checked:nth-of-type(4) ~ .dog-label:nth-of-type(5):hover .dog-name {
+  /*Сделай видемым имя собаки на центральной картинке при наведении*/
+  visibility: visible;
+}

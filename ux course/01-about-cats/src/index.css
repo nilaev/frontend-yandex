@@ -1,0 +1,89 @@
+body {
+  font-family: Gill Sans, sans-serif;
+}
+
+.mode-selector-label {
+  margin: 10px 0px 20px 10px;
+}
+
+.description {
+  font-size: 24px;
+}
+
+.description2 {
+  margin: 10px 10px 10px 10px;
+
+  font-size: 14px;
+}
+
+.card {
+  width: 500px;
+  margin: 10px;
+
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.mode-selector:checked + .corgi-container .card {
+  display: inline-block;
+
+  width: 300px;
+}
+
+.dog-name {
+  font-size: 24px;
+}
+
+.dog-name-link:link {
+  color: #552e05;
+}
+
+.dog-name-link:visited {
+  color: #552e05;
+}
+
+.dog-name-link:hover {
+  color: red;
+}
+
+.dog-name-link:active {
+  color: #552e05;
+}
+
+.mode-selector:checked ~ .corgi-container .dog-name {
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.additional-info {
+  color: rgb(100, 100, 100);
+  font-size: 16px;
+}
+
+.dog-img {
+  width: 100%;
+
+  opacity: 0.9;
+}
+
+.mode-selector:checked ~ .corgi-container .card .dog-img {
+  height: 250px;
+}
+
+.mode-selector:checked ~ .corgi-container .card .additional-info {
+  display: none;
+}
+
+.dog-text {
+  margin: 20px;
+}
+
+.main-info {
+  margin: 0px;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/ux course/01-about-cats/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/ux course/02-mur-market/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/ux course/03-cats-for-all/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/ux course/05-pump-the-cat/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/ux course/06-newspaper/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/sourse" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

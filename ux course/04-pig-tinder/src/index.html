@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang='ru'>
+
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>04-pig-tinder</title>
+  <link rel='stylesheet' href='./index.css'>
+</head>
+
+
+<body>
+<!--==============================Верхняя плашка==============================-->
+<header class='header'>
+  <p class='title'>PigTinder</p>
+</header>
+
+<!--==============================Карточки свиней=============================-->
+<main class='main'>
+  <div class='main-content'>
+
+    <!-------- Значки анимации -------->
+    <img class='bad-badge' src='source/bad-badge.png'
+         alt='bad-badge' id='bad-badge' />
+
+    <img class='good-badge' src='source/good-badge.png'
+         alt='good-badge' id='good-badge' />
+
+    <img class='hot-badge' src='source/hot-badge.png'
+         alt='hot-badge' id='hot-badge' />
+
+    <!-------- Карточки свинок -------->
+    <section class='pig-card' id='pig-0'>
+      <img class='pig-img' src='source/pig-0.jpeg' alt='свинка 0'>
+      <p class='pig-name'>Нюша</p>
+      <p class='pig-info'>10 месяцев, ищет любви</p>
+    </section>
+
+    <section class='pig-card' id='pig-1'>
+      <img class='pig-img' src='source/pig-1.jpeg' alt='свинка 1'>
+      <p class='pig-name'>Шуша</p>
+      <p class='pig-info'>15 месяцев, ищет серьезных отношений</p>
+    </section>
+
+    <section class='pig-card' id='pig-2'>
+      <img class='pig-img' src='source/pig-2.jpeg' alt='свинка 2'>
+      <p class='pig-name'>Кряка</p>
+      <p class='pig-info'>5 мясецев, алоха, пираты!</p>
+    </section>
+
+    <section class='pig-card' id='pig-3'>
+      <img class='pig-img' src='source/pig-3.jpeg' alt='свинка 3'>
+      <p class='pig-name'>Добряша</p>
+      <p class='pig-info'>9 месяцев, влюбляет очаравательной улыбкой</p>
+    </section>
+
+    <section class='pig-card' id='pig-4'>
+      <img class='pig-img' src='source/pig-4.jpeg' alt='свинка 4'>
+      <p class='pig-name'>Людмила</p>
+      <p class='pig-info'>2 месяцв, Купчино</p>
+    </section>
+
+    <section class='pig-card' id='pig-5'>
+      <img class='pig-img' src='source/pig-5.jpeg' alt='свинка 5'>
+      <p class='pig-name'>Жасмин</p>
+      <p class='pig-info'>8 месяцев, увидела список дедлайнов</p>
+    </section>
+
+    <section class='pig-card' id='pig-6'>
+      <img class='pig-img' src='source/pig-6.jpeg' alt='свинка 6'>
+      <p class='pig-name'>Катюша</p>
+      <p class='pig-info'>3 месяца, хочет по одеялко</p>
+    </section>
+
+    <section class='pig-card' id='pig-7'>
+      <img class='pig-img' src='source/pig-7.jpeg' alt='свинка 7'>
+      <p class='pig-name'>Лара</p>
+      <p class='pig-info'>7 месяцев, помылась</p>
+    </section>
+  </div>
+</main>
+
+<!--==============================Кнопки выбора===============================-->
+<footer class='footer'>
+  <button class='button-footer cross' onclick='dislike()'>
+    <img class='button-footer-img' src='source/button-cross.png' alt='крест'>
+  </button>
+  <button class='button-footer star' onclick='star()'>
+    <img class='button-footer-img' src='source/button-star.jpeg' alt='звезда'>
+  </button>
+  <button class='button-footer like' onclick='like()'>
+    <img class='button-footer-img' src='source/button-like.png' alt='сердце'>
+  </button>
+
+  <script src='index.js'></script>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang='ru'>
+<head>
+  <meta charset='utf-8'>
+  <title>07-yandex</title>
+  <link rel='stylesheet' href='./index.css'>
+</head>
+
+<body>
+
+<input type='checkbox' id='show-settings-checkbox' class='show-settings-checkbox' />
+<input checked type='checkbox' id='jokes-checkbox' class='settings-checkbox jokes-checkbox'>
+<input checked type='checkbox' id='tv-checkbox' class='settings-checkbox tv-checkbox'>
+<input checked type='checkbox' id='car-checkbox' class='settings-checkbox car-checkbox'>
+<input type='checkbox' id='refresh-jokes-checkbox' class='refresh-jokes-checkbox' />
+
+<article class='settings-popup'>
+
+  <section class='settings-popup__item'>
+    <span>Лучшие анекдоты</span>
+  </section>
+
+  <section class='settings-popup__item'>
+    <span>Телепрограмма</span>
+  </section>
+
+  <section class='settings-popup__item'>
+    <span>Автомобильные новости</span>
+  </section>
+
+</article>
+
+<header class='topbar'>
+  <section class='topbar__location'>
+    <img src='img/geo-arrow-ic.png' class='geo-icon' alt='geo icon' />
+    <p class='gray-text topbar__location_current'>
+      Санкт-Петербург
+    </p>
+  </section>
+
+  <section class='topbar__settings'>
+    <label for='show-settings-checkbox'>
+      <span class='topbar__settings_text'>Настройка</span>
+    </label>
+  </section>
+</header>
+
+<aside class='aside'>
+  <section class='login'>
+    <p class='user-login ya-text bold-text'>login</p>
+    <p>Почта <span class='bold-text'>&nbsp228</span></p>
+  </section>
+</aside>
+
+<section class='body-top'>
+  <section class='body-top__left-section'>
+    <section class='body-top__left-section__header'>
+      <a
+        href='https://yandex.ru/news?mlid=1605212911.glob_225&msid=1605213915.80206.94602.4281&utm_medium=topnews_news&utm_source=morda_desktop'
+        class='header-tab header-tab_big visited-link'>
+        Сейчас в СМИ
+      </a>
+
+      <a
+        href='https://yandex.ru/news/region/saint_petersburg?mlid=1605212911.geo_2&msid=1605213915.80206.94602.4281&utm_medium=topnews_region&utm_source=morda_desktop'
+        class='header-tab header-tab_big'>
+        В Санкт-Петербурге
+      </a>
+
+      <p class='header-tab small-text current-time gray-text time-tab'>
+        6 декабря, понедельник 14:28
+      </p>
+    </section>
+
+    <ul class='body-top__left-section__list'>
+      <li class='news-item'> ИТМО официально получил название мега университета.
+        Идею поддержала администрация МЕГА Парнас
+      </li>
+      <li class='news-item'>Бабушка Сара, открывшая онлайн-магазин по продаже котиков, выводит
+        свою компанию на IPO
+      </li>
+      <li class='news-item'>Алексей Беглов не смог приехать на собрание Смольного, потому что
+        выезд из его дома завалило снегом. Что губернатор может сказать по поводу работы
+        коммунальных служб?
+      </li>
+      <li class='news-item'>Дмитрий Трамплинов, также известный как Дональд Трамп, получил медаль за
+        заслуги перед родиной
+      </li>
+      <li class='news-item'>Европейский суд по правам человека признал Санкт-Петербург непригодным
+        для жизни из-за слишком суровых погодных условий
+      </li>
+      <li class='news-item'>Подведены итоги референдума в Аляске
+      </li>
+    </ul>
+
+    <section class='body-top__left-section__footer'>
+      <section class='body-top__left-section__footer__currency'>
+        <p class='currency-item bold-text'>
+          USD ЦБ
+        </p>
+
+        <p class='currency-item'>
+          1,33
+        </p>
+
+        <p class='currency-item gray-text'>
+          -0,11
+        </p>
+      </section>
+
+      <section class='body-top__left-section__footer__currency'>
+        <p class='currency-item bold-text'>
+          EUR
+        </p>
+
+        <p class='currency-item'>
+          2,43
+        </p>
+
+        <p class='currency-item gray-text'>
+          -0,10
+        </p>
+      </section>
+
+      <section class='body-top__left-section__footer__currency'>
+        <p class='currency-item bold-text'>
+          НЕФТЬ
+        </p>
+
+        <p class='currency-item'>
+          430,40
+        </p>
+
+        <p class='currency-item gray-text'>
+          -1,03%
+        </p>
+      </section>
+
+      <p class='currency-item gray-text'>
+        ...
+      </p>
+    </section>
+  </section>
+
+  <section class='body-top__right-section'>
+    <img src='img/cat.jpeg' class='discount-img' alt='Скидка на маркете'>
+    <a href='#' class='discount-name'>Товары для животных <br /> со скидками</a>
+    <p class='ya-market'>накорми уже своего кота на Яндекс.Маркете</p>
+  </section>
+</section>
+
+<!--<img src="img/ya-logo.jpg" class="ya-logo" alt="Yandex logo"/>-->
+<section class='logo-part'>
+  <section class='logo-part-letters'>
+    <p class='logo-letter-ya'>Я</p>
+    <p class='logo-letter-n'>н</p>
+    <p class='logo-letter-d'>д</p>
+    <p class='logo-letter-e'>е</p>
+    <p class='logo-letter-k'>к</p>
+    <p class='logo-letter-s'>с</p>
+  </section>
+</section>
+
+<section class='search-field'>
+  <section class='search-categories'>
+    <a href='https://yandex.ru/video/' class='search-category'>
+      Видео
+    </a>
+
+    <a href='https://yandex.ru/images/' class='search-category'>
+      Картинки
+    </a>
+
+    <a href='https://yandex.ru/news/' class='search-category'>
+      Новости
+    </a>
+
+    <a href='https://yandex.ru/maps/' class='search-category'>
+      Карты
+    </a>
+
+    <a href='https://market.yandex.ru/' class='search-category'>
+      Маркет
+    </a>
+
+    <a href='https://translate.yandex.ru/' class='search-category'>
+      Переводчик
+    </a>
+
+    <a href='https://music.yandex.ru/' class='search-category'>
+      Музыка
+    </a>
+
+    <a href='#' class='search-category'>
+      ещё
+    </a>
+  </section>
+  <div class='input-wrapper'>
+    <input class='search-input' />
+    <img src='img/find_btn.png' alt='Найти' class='find-btn' />
+    <img src='img/microphone.svg' alt='Голосовой ввод' class='mic-btn' />
+    <img src='img/keyboard.svg' alt='Экранная клавиатура' class='keyboard-btn' />
+  </div>
+
+  <section class='search-example'>
+    <p class='dark-text'>
+      Найдётся всё.
+    </p>
+
+    <p class='dark-text search-query-example'>
+      Например,
+    </p>
+
+    <p class='gray-text search-query-example-cont'>
+      &nbsp;возможно ли выжить после КТ
+    </p>
+  </section>
+</section>
+
+<section class='ad-wrapper'>
+  <img src='img/ad.png' class='ad-img' alt='Advertisment' />
+</section>
+
+<section class='widgets'>
+
+  <div class='joke-widget-wrapper widget'>
+    <section class='jokes-widget-1'>
+      <a href='#' class='widget__title ya-link'>Лучшие анекдоты</a>
+      <ul class='widget__list'>
+        <li class='widget__list-item'>2050 год: <br>
+          - Представляешь, у нас нет коррупции! <br>
+          - Да ты что, и коррупцию профукали?!
+        </li>
+        <li class='widget__list-item'>Решаю проблемы по мере их "черт, дедлайн по <br>
+          фронтенду уже сегодня что ли".
+        </li>
+        <li class='widget__list-item'>С женщиной либо счастлив, либо прав.</li>
+        <li class='widget__list-item'>В Монголии пройдет шествие Бессмертная орда.</li>
+        <li class='widget__list-item'>Если работаешь на дядю, на тетю не заработаешь.</li>
+      </ul>
+    </section>
+
+    <section class='jokes-widget-2'>
+      <a href='#' class='widget__title ya-link'>Лучшие анекдоты</a>
+      <ul class='widget__list'>
+        <li class='widget__list-item'>Ты настолько сексуальный, что тебя трахает жизнь.
+        </li>
+        <li class='widget__list-item'>Надеюсь, год тигра будет классным, потому что год <br> крысы и
+          свиньи
+          это сразу спойлер был если честно.
+        </li>
+        <li class='widget__list-item'>
+          - На территорию РФ что-то запрещенное провозите?<br>
+          - Избирательное право
+        </li>
+        <li class='widget__list-item'>У молодежи три пути: вэбкам, закладки и айти.</li>
+        <li class='widget__list-item'>У настоящего мужчины должны быть автомобиль из <br> германии,
+          часы из швейцарии, парфюм из франции<br> и жена из днепра
+        </li>
+      </ul>
+    </section>
+  </div>
+
+
+  <section class='widget-TV widget'>
+    <a href='#' class='widget__title ya-link'>Телепрограмма</a>
+    <ul class='widget__list'>
+      <li class='widget__list-item'>06:00 &nbsp; Новости на Первом <span class='gray-text'>1 Первый канал</span>
+      </li>
+      <li class='widget__list-item'>12:00 &nbsp; Здорово жить! <span class='gray-text'>1 Первый канал</span>
+      </li>
+      <li class='widget__list-item'>13:00 &nbsp; Пусть говорят <span class='gray-text'>13 В мире животных</span>
+      </li>
+      <li class='widget__list-item'>16:00 &nbsp; Великолепный век <span class='gray-text'>41 Домашний</span>
+      </li>
+      <li class='widget__list-item'>21:00 &nbsp; Спокойной ночи малыши <span class='gray-text'>2 Россия-1</span>
+      </li>
+      <li class='widget__list-item'>23:00 &nbsp; Вечерний Ургант <span class='gray-text'>1 Первый канал</span>
+      </li>
+    </ul>
+  </section>
+
+  <section class='widget-car widget'>
+    <a href='#' class='widget__title ya-link'>Автомобильные новости</a>
+    <div class='shadow shadow-top'></div>
+    <ul class='widget__list widget-car__list'>
+      <li class='widget__list-item'>В северной столице пробки 10 баллов
+        <span class='gray-text small-text'>14:18</span></li>
+      <li class='widget__list-item'>Авария на Невском проспекте
+        <span class='gray-text small-text'>13:15</span></li>
+      <li class='widget__list-item'>Смольный обсуждает введение платных парковок за КАДом
+        <span class='gray-text small-text'>12:28</span></li>
+      <li class='widget__list-item'>Ученые из Екатеренбуга разработали летающий автомобиль
+        <span class='gray-text small-text'>10:10</span></li>
+      <li class='widget__list-item'>Автомобилистам Санкт-Петербурга приходится "перелетать" сугробы
+        <span class='gray-text small-text'>09:34</span></li>
+      <li class='widget__list-item'>Московский проспект парализован из-за непогоды
+        <span class='gray-text small-text'>09:33</span></li>
+      <li class='widget__list-item'>Правительство поддержало идею выделения дополнительных полос на
+        заледеневшей Неве
+        <span class='gray-text small-text'>22:38</span></li>
+      <li class='widget__list-item'>Правительство поддержало законопроект о регистрации машиномест
+        <span class='gray-text small-text'>22:20</span></li>
+      <li class='widget__list-item'>Правительство поддержало идею выделения средств на новогодние
+        украшения городских автобусов
+        <span class='gray-text small-text'>21:59</span></li>
+      <li class='widget__list-item'>Правительство еще много чего поддержало, но у меня закончилась
+        фантазия
+        <span class='gray-text small-text'>21:15</span></li>
+    </ul>
+    <div class='shadow shadow-bottom'></div>
+  </section>
+</section>
+
+<label class='refresh-jokes-label' for='refresh-jokes-checkbox'>
+        <span class='refresh-jokes'>
+          <img src='img/refresh.svg' alt='Обновить' class='refresh-jokes__refresh-img' />
+          <span class='refresh-jokes__text ya-link'>Показать еще</span>
+        </span>
+</label>
+
+
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang='ru'>
+
+<head>
+  <meta charset='utf-8'>
+  <title>01-about-cats</title>
+  <link rel='stylesheet' href='./index.css'>
+  <link rel='stylesheet' href='./card-style.css'>
+  <link rel='stylesheet' href='./additional-info.css'>
+</head>
+
+
+<body>
+<!--==============================Верхняя плашка==============================-->
+<header class='header'>
+  <p class='title'>Коржмаркет</p>
+</header>
+
+
+<!--==============================Карусель==============================-->
+<main class='main'>
+  <div align='center' class='description'> Лучший друг для стильного фронтедера</div>
+  <div align='center' class='description2'> (потому что на кошек у меня аллергия)</div>
+
+  <div class='corgi-container'>
+
+    <input class='dog-selector' id='dog-0-input' type='radio' name='first-dog' checked />
+    <label class='dog-label' for='dog-0-input'>
+      <div class='dog-empty'></div>
+    </label>
+
+    <!-------------Коржик 1------------->
+    <input class='dog-selector' id='dog-1-input' type='radio' name='first-dog' />
+    <label class='dog-label' for='dog-0-input'>
+      <article class='card'>
+        <img class='dog-img' src='source/corgi-01.jpg' alt='corgi 1' />
+        <a class='dog-name' href='#modalbox-1'>Улыбака</a>
+      </article>
+    </label>
+
+    <!-------------Коржик 2------------->
+    <input class='dog-selector' id='dog-2-input' type='radio' name='first-dog' />
+    <label class='dog-label' for='dog-1-input'>
+      <article class='card'>
+        <img class='dog-img' src='source/corgi-02.jpg' alt='corgi 2' />
+        <a class='dog-name' href='#modalbox-2'>Балдежник</a>
+      </article>
+    </label>
+
+    <!-------------Коржик 3------------->
+    <input class='dog-selector' id='dog-3-input' type='radio' name='first-dog' />
+    <label class='dog-label' for='dog-2-input'>
+      <article class='card'>
+        <img class='dog-img' src='source/corgi-03.jpg' alt='corgi 3' />
+        <a class='dog-name' href='#modalbox-3'>Булотька</a>
+      </article>
+    </label>
+
+    <!-------------Коржик 4------------->
+    <input class='dog-selector' id='dog-4-input' type='radio' name='first-dog' />
+    <label class='dog-label' for='dog-3-input'>
+      <article class='card'>
+        <img class='dog-img' src='source/corgi-04.jpg' alt='corgi 4' />
+        <a class='dog-name' href='#modalbox-4'>Шустрик</a>
+      </article>
+    </label>
+  </div>
+</main>
+
+
+<!--==============================Карточки на весь экран==============================-->
+
+<!-------------Коржик 1------------->
+<div class='modal' id='modalbox-1'>
+  <div class='modalcontent'>
+    <img class='modal-img' src='source/corgi-01.jpg' alt='corgi 1' />
+    <div class='modaltext'>
+      <section class='dog-info'>
+        <p class='modal-dog-name'>Улыбака</p>
+        <p><b>Возраст:</b> 2 года </p>
+        <p><b>Статус: </b> на позитиве </p>
+        <p class='additional-info'>
+          Вечно веселый и довольный жизнью заражает свои позитивом
+        </p>
+      </section>
+    </div>
+    <a href='#' class='modalclose'>&times;</a>
+  </div>
+</div>
+
+<!-------------Коржик 2------------->
+<div class='modal' id='modalbox-2'>
+  <div class='modalcontent'>
+    <img class='modal-img' src='source/corgi-02.jpg' alt='corgi 2' />
+    <div class='modaltext'>
+      <section class='dog-info'>
+        <p class='modal-dog-name'>Балдежник</p>
+        <p><b>Возраст:</b> вечно молодой </p>
+        <p><b>Статус: </b> вечно пьяный </p>
+        <p class='additional-info'>
+          Почувствовал вкус жизни. Приятная компания и хорошее настрение с этим симпатягой вам
+          обеспечено
+        </p>
+      </section>
+    </div>
+    <a href='#' class='modalclose'>&times;</a>
+  </div>
+</div>
+
+<!-------------Коржик 3------------->
+<div class='modal' id='modalbox-3'>
+  <div class='modalcontent'>
+    <img class='modal-img' src='source/corgi-03.jpg' alt='corgi 3' />
+    <div class='modaltext'>
+      <section class='dog-info'>
+        <p class='modal-dog-name'>Булотька</p>
+        <p><b>Возраст:</b> 5 месяцев </p>
+        <p><b>Статус: </b> топтышкин </p>
+        <p class='additional-info'>
+          Сладкая милаха ищет хозяина
+        </p>
+      </section>
+    </div>
+    <a href='#' class='modalclose'>&times;</a>
+  </div>
+</div>
+
+<!-------------Коржик 4------------->
+<div class='modal' id='modalbox-4'>
+  <div class='modalcontent'>
+    <img class='modal-img' src='source/corgi-04.jpg' alt='corgi 4' />
+    <div class='modaltext'>
+      <section class='dog-info'>
+        <p class='modal-dog-name'>Шустрик</p>
+        <p><b>Возраст:</b> 4 месяца </p>
+        <p><b>Статус: </b> на спроте </p>
+        <p class='additional-info'>
+          Ни минуты покоя... Обожает играть
+        </p>
+      </section>
+    </div>
+    <a href='#' class='modalclose'>&times;</a>
+  </div>
+</div>
+
+
+<!--==============================Нижняя плашка==============================-->
+<footer class='footer'>
+  <div class='row'>
+    <div class='footer-1'>Напишите нам: <a href='mailto:abc@def.com'>love@corgi.ru</a></div>
+    <div class='footer-2'>&copy; 2021
+      &laquo;<a
+        href='https://ukrboom.jimdofree.com/библиотека/10-причин-завести-корги-или-почему-вельш-корги-идеальная-собака-для-города-и-семьи'>Любимые
+        коржики</a>&raquo;
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
