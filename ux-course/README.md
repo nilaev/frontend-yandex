@@ -1,7 +1,7 @@
 # UX course from [Yandex](https://yandex.ru/) in ITMO.
 
-## [Homework 1: About Cats](https://github.com/nilaev/frontend-yandex/tree/main/ux%20course/01-about-cats)
-![alt](https://github.com/nilaev/frontend-yandex/blob/main/source/ux-01-1.png)
+## [Homework 1: About Cats](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/01-about-cats)
+![alt](https://github.com/nilaev/frontend-yandex/blob/main/images/ux-01-1.png)
 ________________________________________________________________________________
 
 ## [Homework 2: Murmarket](https://github.com/DMozhevitin/ITMO/tree/main/ux-course/02-murmarket)
