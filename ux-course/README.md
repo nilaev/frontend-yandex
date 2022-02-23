@@ -1,28 +1,28 @@
-# UX course from [Yandex](https://yandex.ru/) in ITMO.
+# UX курс от [Яндекса](https://yandex.ru/)
 
-## [Homework 1: About Cats](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/01-about-cats)
+## [Задание 1: About Cats](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/01-about-cats)
 ![alt](https://github.com/nilaev/frontend-yandex/blob/main/images/ux-01-1.png)
 ________________________________________________________________________________
 
-## [Homework 2: Murmarket](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/02-mur-market)
+## [Задание 2: Murmarket](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/02-mur-market)
 ![alt](https://github.com/nilaev/frontend-yandex/blob/main/images/ux-02-1.png)
 ________________________________________________________________________________
 
-## [Homework 3: Cats for all](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/03-cats-for-all)
+## [Задание 3: Cats for all](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/03-cats-for-all)
 ![alt](https://github.com/nilaev/frontend-yandex/blob/main/images/ux-03-1.png)
 ________________________________________________________________________________
 
-## [Homework 4: Pig Tinder](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/04-pig-tinder)
+## [Задание 4: Pig Tinder](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/04-pig-tinder)
 ![alt](https://github.com/nilaev/frontend-yandex/blob/main/images/ux-04-1.png)
 ________________________________________________________________________________
 
-## [Homework 5: Accesability](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/05-pump-the-cat)
+## [Задание 5: Accesability](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/05-pump-the-cat)
 ![alt](https://github.com/nilaev/frontend-yandex/blob/main/images/ux-05-1.png)
 ________________________________________________________________________________
 
-## [Homework 6: Newspaper](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/06-newspaper)
+## [Задание 6: Newspaper](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/06-newspaper)
 ![alt](https://github.com/nilaev/frontend-yandex/blob/main/images/ux-06-1.png)
 _______________________________________________________________________________
 
-## [Homework 7: Yandex](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/07-yandex)
+## [Задание 7: Yandex](https://github.com/nilaev/frontend-yandex/tree/main/ux-course/07-yandex)
 ![alt](https://github.com/nilaev/frontend-yandex/blob/main/images/ux-07-1.png)
